@@ -213,6 +213,8 @@ You don't have to switch at each exercise, you can find your a cadence that work
 
 There are some observations in this dataset that we will exclude from our analysis to match the Buzzfeed results.
 
+There are `r nrow(nobel)` rows and `r ncol(nobel)` columns in the nobel dataset. Each row represents a nobel winner.
+
 2.  Create a new data frame called `nobel_living` that filters for
 
 -   laureates for whom `country` is available
@@ -229,6 +231,8 @@ nobel_living <- nobel %>%
 ```
 
 Confirm that once you have filtered for these characteristics you are left with a data frame with `r nrow(nobel_living)` observations, once again using inline code.
+
+There are `r nrow(nobel_living)` rows and `r ncol(nobel_living)` columns in the nobel dataset. Each row represents a nobel winner.
 
 🧶 ✅ ⬆️ Knit, *commit, and push your changes to GitHub with an appropriate commit message. Make sure to commit and push all changed files so that your Git pane is cleared up afterwards.*
 
